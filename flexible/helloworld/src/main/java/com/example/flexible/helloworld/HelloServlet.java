@@ -31,7 +31,7 @@ public class HelloServlet extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
     PrintWriter out = resp.getWriter();
-    out.println("Hello, world - App Engine Flexible");
+    out.println("Hello, CQU - App Engine Flexible");
   }
 }
 // [END gae_flex_servlet]
